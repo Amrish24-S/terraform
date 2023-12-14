@@ -3,7 +3,7 @@ variable "region" {
   description = "region"
   default     = "us-east-1"
 }
-
+#
 variable "cluster_name" {
   type        = string
   description = "cluster name"
