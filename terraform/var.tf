@@ -8,3 +8,4 @@ variable "cluster_name" {
   description = "cluster name"
   default     = "k8s_cluster"
 }
+#
