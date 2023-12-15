@@ -56,7 +56,7 @@ jobs:
 
       - name: Terraform apply
         id: apply
-        if: github.ref == 'refs/HEAD/amin' && github.event_name == 'push'
+        if: github.ref == 'refs/HEAD/main' && github.event_name == 'push'
         run: terraform apply -input=false -auto-approve -parallelism=1 planfile
 
       - name: AWS Configure
